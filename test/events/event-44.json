@@ -1,0 +1,19 @@
+{
+  "object": "event",
+  "id": "evt_0TZQUpw93l4rLP1c62xZBjusuuHV",
+  "data": {
+    "object": "taxRate",
+    "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+    "description": null,
+    "inclusive": false,
+    "name": "Recovery Fee",
+    "percentage": 10.0
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T13:03:35Z",
+  "type": "taxRate.updated",
+  "version": "2023-01-30"
+}

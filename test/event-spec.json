@@ -1,0 +1,98 @@
+{
+  "type": "object",
+  "title": "event",
+  "properties": {
+    "object": {
+      "type": "string",
+      "const": "event",
+      "description": "Type of object is always `event`."
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the event.",
+      "examples": [
+        "evt_0SNlurA049MEWV5gNTcQ5A07h3Ol"
+      ]
+    },
+    "data": {
+      "type": "object",
+      "description": "Object containing the API resource relevant to the event. For example, a `user.updated` event will have a full user object as the value.",
+      "examples": [
+        {
+          "object": "user",
+          "id": "usr_0SNlurA049MEWV4OpCwsNyC9Kn2d",
+          "birthday": "2017-07-21",
+          "email": "john.doe@example.com",
+          "emailVerified": true,
+          "fullName": "John Doe",
+          "preferredLocale": "en-US",
+          "createdAt": "2021-01-21T19:38:34Z"
+        }
+      ],
+      "additionalProperties": true
+    },
+    "datacontenttype": {
+      "type": "string",
+      "default": "application/json",
+      "description": "The RFC 2046 content-type.",
+      "examples": [
+        "application/json"
+      ]
+    },
+    "project": {
+      "type": "string",
+      "description": "Unique identifier for the project where the event occurred.",
+      "examples": [
+        "gigs"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "default": "https://api.gigs.com",
+      "description": "URI identifying the event source.",
+      "examples": [
+        "https://api.gigs.com"
+      ]
+    },
+    "specversion": {
+      "type": "string",
+      "default": "1.0",
+      "description": "The CloudEvents spec version.",
+      "examples": [
+        "1.0"
+      ]
+    },
+    "time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time when the event was created.",
+      "examples": [
+        "2022-03-16T14:12:42Z"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "description": "Description of the event.",
+      "examples": [
+        "user.updated"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "default": "2023-01-30",
+      "description": "API version used to serialize the data and the event itself."
+    }
+  },
+  "required": [
+    "object",
+    "id",
+    "data",
+    "datacontenttype",
+    "project",
+    "source",
+    "specversion",
+    "time",
+    "type",
+    "version"
+  ]
+}

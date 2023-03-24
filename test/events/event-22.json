@@ -1,0 +1,98 @@
+{
+  "object": "event",
+  "id": "evt_0TZQmGo03l4rLP0nLQEmDunk4VhT",
+  "data": {
+    "object": "payment",
+    "id": "pay_0TZQmFT63l4rLP5Oa32DdnWILryE",
+    "amount": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "discount": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "disputeOutcome": null,
+    "failedAttempts": 0,
+    "failureCode": null,
+    "failureMessage": null,
+    "invoiceNumber": "7FA6368D-0070",
+    "method": {
+      "object": "paymentMethod",
+      "id": "pm_1MlcwrJ1XHzxHaNMADAGmxOg",
+      "brand": "visa",
+      "clientSecret": null,
+      "last4": "4242",
+      "provider": "stripe",
+      "status": "available",
+      "type": "card",
+      "user": "usr_0TGqGBlB3l4rLP1ARYhX2TvJI2ts",
+      "createdAt": "2023-03-14T18:51:51Z"
+    },
+    "reason": "subscriptionRenewal",
+    "receipt": "https://files.gigs.com/receipts/pay_0TZQmFT63l4rLP5Oa32DdnWILryE.pdf?signature=662fadcf45f0633593c0f3888bf904069934748c6e9129864b824690835b8744",
+    "references": [
+      {
+        "object": "subscription",
+        "id": "sub_0TU94LfW3l4rLP2rC3KzFmBkUF7z"
+      },
+      {
+        "object": "order",
+        "id": "ord_0TU94Lo33l4rLP5nl2Q6DWbc1XGR"
+      }
+    ],
+    "refunded": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "succeeded",
+    "subtotal": {
+      "amount": 999,
+      "currency": "USD"
+    },
+    "taxes": [
+      {
+        "object": "tax",
+        "taxRate": {
+          "object": "taxRate",
+          "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+          "description": null,
+          "inclusive": false,
+          "name": "Recovery Fee",
+          "percentage": 10.0
+        },
+        "value": {
+          "amount": 100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "total": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "user": {
+      "object": "user",
+      "id": "usr_0TGqGBlB3l4rLP1ARYhX2TvJI2ts",
+      "birthday": "1983-03-12",
+      "email": "sebastian@gigs.com",
+      "emailVerified": true,
+      "fullName": "Sebastian Menge",
+      "preferredLocale": "en-US",
+      "createdAt": "2022-09-08T11:39:45Z"
+    },
+    "voucher": null,
+    "voucherCode": null,
+    "attemptedAt": "2023-03-24T14:12:45Z",
+    "createdAt": "2023-03-24T14:12:45Z",
+    "disputeClosedAt": null,
+    "refundedAt": null
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T14:12:50Z",
+  "type": "payment.succeeded",
+  "version": "2023-01-30"
+}

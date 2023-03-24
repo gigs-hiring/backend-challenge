@@ -1,0 +1,98 @@
+{
+  "object": "event",
+  "id": "evt_0TZQnUne3l4rLP3jCQgnmWxahSJZ",
+  "data": {
+    "object": "payment",
+    "id": "pay_0TZQnTQm3l4rLP0zp35pMqKEWMGq",
+    "amount": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "discount": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "disputeOutcome": null,
+    "failedAttempts": 0,
+    "failureCode": null,
+    "failureMessage": null,
+    "invoiceNumber": "A6351EF7-0042",
+    "method": {
+      "object": "paymentMethod",
+      "id": "pm_1MeweFJ1XHzxHaNMQQAeZSV6",
+      "brand": "visa",
+      "clientSecret": null,
+      "last4": "4242",
+      "provider": "stripe",
+      "status": "available",
+      "type": "card",
+      "user": "usr_0TRt7BVf3l4rLP3vO7eQNo2bEzGd",
+      "createdAt": "2023-02-24T08:29:04Z"
+    },
+    "reason": "subscriptionRenewal",
+    "receipt": "https://files.gigs.com/receipts/pay_0TZQnTQm3l4rLP0zp35pMqKEWMGq.pdf?signature=d66c968629d584219de93097fd7793af9548dba755c59a0408da4555b51b42dd",
+    "references": [
+      {
+        "object": "subscription",
+        "id": "sub_0TZ8zSlR3l4rLP4fxYR95pbeQIef"
+      },
+      {
+        "object": "order",
+        "id": "ord_0TZ8zSnC3l4rLP2YZo8SVWid1Dwo"
+      }
+    ],
+    "refunded": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "succeeded",
+    "subtotal": {
+      "amount": 999,
+      "currency": "USD"
+    },
+    "taxes": [
+      {
+        "object": "tax",
+        "taxRate": {
+          "object": "taxRate",
+          "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+          "description": null,
+          "inclusive": false,
+          "name": "Recovery Fee",
+          "percentage": 10.0
+        },
+        "value": {
+          "amount": 100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "total": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "user": {
+      "object": "user",
+      "id": "usr_0TRt7BVf3l4rLP3vO7eQNo2bEzGd",
+      "birthday": null,
+      "email": "rui@gigs.com",
+      "emailVerified": true,
+      "fullName": "Rui Ramalhete",
+      "preferredLocale": "en-US",
+      "createdAt": "2023-01-03T14:40:29Z"
+    },
+    "voucher": null,
+    "voucherCode": null,
+    "attemptedAt": "2023-03-24T14:17:37Z",
+    "createdAt": "2023-03-24T14:17:37Z",
+    "disputeClosedAt": null,
+    "refundedAt": null
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T14:17:42Z",
+  "type": "payment.succeeded",
+  "version": "2023-01-30"
+}

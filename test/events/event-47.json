@@ -1,0 +1,23 @@
+{
+  "object": "event",
+  "id": "evt_0TZQRKE33l4rLP1YGnz8j69BbNI1",
+  "data": {
+    "object": "userAddress",
+    "id": "adr_0TZQRK5z3l4rLP0jMiRJhPuEFrYP",
+    "city": "Falls Church",
+    "country": "US",
+    "line1": "6320 Crosswoods Circle",
+    "line2": null,
+    "postalCode": "22044",
+    "state": "VA",
+    "user": "usr_0TZQRG1z3l4rLP1ZPRUZZ9FS65Qf",
+    "createdAt": "2023-03-24T12:49:37Z"
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T12:49:38Z",
+  "type": "user.address.created",
+  "version": "2023-01-30"
+}

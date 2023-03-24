@@ -1,0 +1,98 @@
+{
+  "object": "event",
+  "id": "evt_0TZQUq6H3l4rLP4nI97g4RVAvuJP",
+  "data": {
+    "object": "payment",
+    "id": "pay_0TZQUn0C3l4rLP0LAzZ8WpRPjw6M",
+    "amount": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "discount": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "disputeOutcome": null,
+    "failedAttempts": 0,
+    "failureCode": null,
+    "failureMessage": null,
+    "invoiceNumber": "0E6863E7-0012",
+    "method": {
+      "object": "paymentMethod",
+      "id": "pm_1Mo3pxJ1XHzxHaNMe2iOjkjJ",
+      "brand": "visa",
+      "clientSecret": null,
+      "last4": "4242",
+      "provider": "stripe",
+      "status": "available",
+      "type": "card",
+      "user": "usr_0TYa0L5W3l4rLP5oT5sjhIQ0rgTm",
+      "createdAt": "2023-03-21T11:59:04Z"
+    },
+    "reason": "subscriptionRenewal",
+    "receipt": "https://files.gigs.com/receipts/pay_0TZQUn0C3l4rLP0LAzZ8WpRPjw6M.pdf?signature=d3c804b6d5256e286653de4209eaa3aff64241a26e04f04018a8dce3e544af57",
+    "references": [
+      {
+        "object": "subscription",
+        "id": "sub_0TZ8gyzy3l4rLP3oKy1mn6taJSBR"
+      },
+      {
+        "object": "order",
+        "id": "ord_0TZ8gz5R3l4rLP4Hn7LvDZzlkAes"
+      }
+    ],
+    "refunded": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "succeeded",
+    "subtotal": {
+      "amount": 999,
+      "currency": "USD"
+    },
+    "taxes": [
+      {
+        "object": "tax",
+        "taxRate": {
+          "object": "taxRate",
+          "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+          "description": null,
+          "inclusive": false,
+          "name": "Recovery Fee",
+          "percentage": 10.0
+        },
+        "value": {
+          "amount": 100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "total": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "user": {
+      "object": "user",
+      "id": "usr_0TYa0L5W3l4rLP5oT5sjhIQ0rgTm",
+      "birthday": null,
+      "email": "marton@gigs.com",
+      "emailVerified": true,
+      "fullName": "Marton Lakatos",
+      "preferredLocale": "en-US",
+      "createdAt": "2023-03-15T13:36:17Z"
+    },
+    "voucher": null,
+    "voucherCode": null,
+    "attemptedAt": "2023-03-24T13:03:24Z",
+    "createdAt": "2023-03-24T13:03:24Z",
+    "disputeClosedAt": null,
+    "refundedAt": null
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T13:03:35Z",
+  "type": "payment.succeeded",
+  "version": "2023-01-30"
+}

@@ -1,0 +1,98 @@
+{
+  "object": "event",
+  "id": "evt_0TZQeS2A3l4rLP3RyyRQU3oMapEg",
+  "data": {
+    "object": "payment",
+    "id": "pay_0TZQeQoi3l4rLP40XcTZPQVNuSav",
+    "amount": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "discount": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "disputeOutcome": null,
+    "failedAttempts": 0,
+    "failureCode": null,
+    "failureMessage": null,
+    "invoiceNumber": "E78B4943-0018",
+    "method": {
+      "object": "paymentMethod",
+      "id": "pm_1MizpyJ1XHzxHaNMz3HhYTWy",
+      "brand": "visa",
+      "clientSecret": null,
+      "last4": "1111",
+      "provider": "stripe",
+      "status": "available",
+      "type": "card",
+      "user": "usr_0TPzfHRr3l4rLP2Up2sySv9xSpkN",
+      "createdAt": "2023-03-07T12:41:52Z"
+    },
+    "reason": "subscriptionRenewal",
+    "receipt": "https://files.gigs.com/receipts/pay_0TZQeQoi3l4rLP40XcTZPQVNuSav.pdf?signature=e685ee81951ef1cbdc39fbf023c526ff474763cf70796d78df38111567a5f631",
+    "references": [
+      {
+        "object": "subscription",
+        "id": "sub_0TXp0Dgg3l4rLP1hxIXCSaMDLZMt"
+      },
+      {
+        "object": "order",
+        "id": "ord_0TXp0DoN3l4rLP53skgn4QoJhEN1"
+      }
+    ],
+    "refunded": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "succeeded",
+    "subtotal": {
+      "amount": 999,
+      "currency": "USD"
+    },
+    "taxes": [
+      {
+        "object": "tax",
+        "taxRate": {
+          "object": "taxRate",
+          "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+          "description": null,
+          "inclusive": false,
+          "name": "Recovery Fee",
+          "percentage": 10.0
+        },
+        "value": {
+          "amount": 100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "total": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "user": {
+      "object": "user",
+      "id": "usr_0TPzfHRr3l4rLP2Up2sySv9xSpkN",
+      "birthday": null,
+      "email": "arthur+applepaytest@gigs.com",
+      "emailVerified": true,
+      "fullName": "Arthur Maas",
+      "preferredLocale": "en-US",
+      "createdAt": "2022-12-14T12:35:47Z"
+    },
+    "voucher": null,
+    "voucherCode": null,
+    "attemptedAt": "2023-03-24T13:41:42Z",
+    "createdAt": "2023-03-24T13:41:42Z",
+    "disputeClosedAt": null,
+    "refundedAt": null
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T13:41:46Z",
+  "type": "payment.succeeded",
+  "version": "2023-01-30"
+}

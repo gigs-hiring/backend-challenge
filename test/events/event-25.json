@@ -1,0 +1,98 @@
+{
+  "object": "event",
+  "id": "evt_0TZQkN2Y3l4rLP50bvc7IieDVJ0t",
+  "data": {
+    "object": "payment",
+    "id": "pay_0TZQkLce3l4rLP5508sTFshchulF",
+    "amount": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "discount": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "disputeOutcome": null,
+    "failedAttempts": 0,
+    "failureCode": null,
+    "failureMessage": null,
+    "invoiceNumber": "F100649B-0040",
+    "method": {
+      "object": "paymentMethod",
+      "id": "pm_1MgapcJ1XHzxHaNMZ320CtbE",
+      "brand": "visa",
+      "clientSecret": null,
+      "last4": "4242",
+      "provider": "stripe",
+      "status": "available",
+      "type": "card",
+      "user": "usr_0TW7gwS63l4rLP3YwYZJ6RaNDQPk",
+      "createdAt": "2023-02-28T21:36:11Z"
+    },
+    "reason": "subscriptionRenewal",
+    "receipt": "https://files.gigs.com/receipts/pay_0TZQkLce3l4rLP5508sTFshchulF.pdf?signature=1d6a50993e5831f04b4a345e5d56c28b9565ca4f4f2e1d276d43ef3db44bd950",
+    "references": [
+      {
+        "object": "subscription",
+        "id": "sub_0TW7qPbq3l4rLP2WjuDzFrmm2wfP"
+      },
+      {
+        "object": "order",
+        "id": "ord_0TW7qPgr3l4rLP1C9XcFTic08Z3G"
+      }
+    ],
+    "refunded": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "succeeded",
+    "subtotal": {
+      "amount": 999,
+      "currency": "USD"
+    },
+    "taxes": [
+      {
+        "object": "tax",
+        "taxRate": {
+          "object": "taxRate",
+          "id": "txr_0TU8qcx73l4rLP1cInxAZDFEGn43",
+          "description": null,
+          "inclusive": false,
+          "name": "Recovery Fee",
+          "percentage": 10.0
+        },
+        "value": {
+          "amount": 100,
+          "currency": "USD"
+        }
+      }
+    ],
+    "total": {
+      "amount": 1099,
+      "currency": "USD"
+    },
+    "user": {
+      "object": "user",
+      "id": "usr_0TW7gwS63l4rLP3YwYZJ6RaNDQPk",
+      "birthday": null,
+      "email": "daniel.kreiger@gigs.com",
+      "emailVerified": true,
+      "fullName": "Daniel Kreiger",
+      "preferredLocale": "en-US",
+      "createdAt": "2023-02-17T12:25:51Z"
+    },
+    "voucher": null,
+    "voucherCode": null,
+    "attemptedAt": "2023-03-24T14:05:12Z",
+    "createdAt": "2023-03-24T14:05:12Z",
+    "disputeClosedAt": null,
+    "refundedAt": null
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T14:05:17Z",
+  "type": "payment.succeeded",
+  "version": "2023-01-30"
+}

@@ -1,0 +1,21 @@
+{
+  "object": "event",
+  "id": "evt_0TZQRG263l4rLP33V1yyNrHRf1Df",
+  "data": {
+    "object": "user",
+    "id": "usr_0TZQRG1z3l4rLP1ZPRUZZ9FS65Qf",
+    "birthday": null,
+    "email": "arthur+testdashboardsubscriptioncreation3@gigs.com",
+    "emailVerified": false,
+    "fullName": "Arthur Maas",
+    "preferredLocale": "en-US",
+    "createdAt": "2023-03-24T12:49:22Z"
+  },
+  "datacontenttype": "application/json",
+  "project": "dev",
+  "source": "https://api.gigs.com",
+  "specversion": "1.0",
+  "time": "2023-03-24T12:49:22Z",
+  "type": "user.created",
+  "version": "2023-01-30"
+}
