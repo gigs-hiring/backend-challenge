@@ -16,18 +16,20 @@ The Gigs platform publishes many events for all actions taking place, e.g. `user
 
 Next to our internal use cases for events we also expect them to be very helpful to our customers. For example, they will enable reacting to asynchronous events like sending notification emails once a subscription has been activated. We want to provide common [HTTP webhooks][webhooks] for that purpose. Our customers should be able to specify one or more HTTP URL endpoints to receive webhook messages at and we'll make sure to send all specified events there.
 
+To determine which customer gets which webhook, we look at the `project` field in the payload. Every customer should have their own project.
+
 Fortunately, there is a [webhooks as a service solution built by Svix][svix] which we can utilize for the heavy lifting. All we need to do is to receive events (as HTTP POST requests) from Pub/Sub, extract a few fields, and send the message to Svix.
 
 In this project, you're going to build exactly this as an independent service.
 
 ## Your Task
 
-Write some code and more importantly write some notes for us! We are most interested in your thoughts and approach to the problem. Don't handle all edge cases or write tests for all possible scenarios. Use the `NOTES.md` file to explain any shortcomings and what you would would like to do with more time.
+Write some code and more importantly write some notes for us! We are most interested in your thoughts and approach to the problem. Don't handle all edge cases or write tests for all possible scenarios. Use the `NOTES.md` file to explain any shortcomings and what you would like to do with more time.
 
 Write a small service which does the following:
 
 * listens on a HTTP port
-* accepts JSON formatted POST messages on a chose endpoint (e.g. `/notifications`)
+* accepts JSON formatted POST messages on a chosen endpoint (e.g. `/notifications`)
 * sends every received event as individual message to Svix
 * ensures idempotency in case requests to Svix fail
 * handles Svix rate limit errors appropriately
