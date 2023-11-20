@@ -8,5 +8,9 @@
 
 As a Backend Engineer at Gigs, you’ll be working on everything from API design, mobile network integrations, event processing, payments handling, and so much more. Checkout the [job post][position] for more details.
 
+## The Challenge
+
+You can find the challenge in [the CHALLENGE.md file](CHALLENGE.md).
+
 [gigs]: https://gigs.com
 [position]: https://www.notion.so/wearegigs/Senior-Backend-Engineer-f-m-x-f835f407269e4c3c8c8030fd45896b2e
