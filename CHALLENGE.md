@@ -16,7 +16,7 @@ out our [developer documentation] for a general overview of our API offering.
 We publish events for all actions that take place on the platform, e.g.
 `user.created`, `subscription.created`, `subscription.activated`, etc. Events
 power all the interactions between different parts of our internal
-infrastructure. We use Google Cloud Pub/Sub to publish events and subscribe to
+infrastructure. We use [Google Cloud Pub/Sub] to publish events and subscribe to
 event topics.
 
 Next to our internal use cases for events we also expect them to be useful for
@@ -101,5 +101,6 @@ And last, if you know what you're doing, don't spend more than a few hours on
 this. If you are learning, take all the time you need.
 
 [developer documentation]: https://developers.gigs.com/docs/api/35a6c0eba105a-quickstart
+[Google Cloud Pub/Sub]: https://cloud.google.com/pubsub/docs/overview
 [svix]: https://www.svix.com/
 [webhooks]: https://webhooks.fyi/
