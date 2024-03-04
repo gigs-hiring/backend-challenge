@@ -6,7 +6,7 @@
 
 ## The Job
 
-As a Backend Engineer at Gigs, you’ll be working on everything from API design, mobile network integrations, event processing, payments handling, and so much more. Checkout the [job post][position] for more details.
+As a Backend Engineer at Gigs, you’ll be working on everything from API design, mobile network integrations, event processing, payments handling, and so much more. Check out the [job post][position] for more details.
 
 ## The Challenge
 

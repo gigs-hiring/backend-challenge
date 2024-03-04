@@ -19,23 +19,23 @@ power all the interactions between different parts of our internal
 infrastructure. We use [Google Cloud Pub/Sub] to publish events and subscribe to
 event topics.
 
-Next to our internal use cases for events we also expect them to be useful for
-out customers. For example, the `subscription.activated` event could allow a
-customer to send an email notifying the user that their subsccription is ready
+Next to our internal use cases for events, we also expect them to be useful for
+our customers. For example, the `subscription.activated` event could allow a
+customer to send an email notifying the user that their subscription is ready
 to use. We want to provide common [HTTP webhooks][webhooks] for that purpose.
 Our customers should be able to specify one or more HTTP URL endpoints to
 receive webhook messages at and we'll make sure to send all specified events
 there.
 
 Fortunately, there is a [webhooks as a service solution built by Svix][svix]
-which we can use to get most of this behaviour for free. All we need to do is
+which we can use to get most of this behavior for free. All we need to do is
 receive events (as HTTP POST requests) from Pub/Sub, extract a few fields, and
 send the message to Svix.
 
 In this project, you're going to build exactly this as an independent service.
 
 (Don't worry if you don't have experience with Pub/Sub specifically - just
-assume it works similarly to your favourite queuing service.)
+assume it works similarly to your favorite queuing service.)
 
 ## Your Task
 
