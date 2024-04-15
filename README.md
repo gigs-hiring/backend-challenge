@@ -1,6 +1,6 @@
 # Gigs Backend Challenge
 
-👋 Welcome to the hiring project for the Gigs' [Backend Engineer position][position]. If you apply, we’ll ask you to do this project so we can see how you work through a theoretical example of the type of things you’d do at [Gigs]!
+👋 Welcome to the hiring project for the Gigs' [Backend Engineer position][position]. If you apply, we’ll ask you to do this project so we can see how you work through a theoretical example of the type of things you’d do as an [Engineer at Gigs][gigs-engineering]!
 
 > We will never use the code you provide for anything outside of the interview process!
 
@@ -12,5 +12,5 @@ As a Backend Engineer at Gigs, you’ll be working on everything from API design
 
 You can find the challenge in [the CHALLENGE.md file](CHALLENGE.md).
 
-[gigs]: https://gigs.com
-[position]: https://www.notion.so/wearegigs/Senior-Backend-Engineer-f-m-x-f835f407269e4c3c8c8030fd45896b2e
+[gigs-engineering]: https://gigs.com/engineering
+[position]: https://gigs.com/engineering/engineeringatgigs/4264820101?gh_jid=4264820101
