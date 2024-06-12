@@ -106,7 +106,7 @@ here. Feel free to skip these things:
 And last, if you know what you're doing, don't spend more than a few hours on
 this. If you are learning, take all the time you need.
 
-[developer documentation]: https://developers.gigs.com/docs/api/35a6c0eba105a-quickstart
+[developer documentation]: https://developers.gigs.com/docs/quickstart
 [Google Cloud Pub/Sub]: https://cloud.google.com/pubsub/docs/overview
 [svix]: https://www.svix.com/
 [webhooks]: https://webhooks.fyi/
