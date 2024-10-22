@@ -34,8 +34,10 @@ send the message to Svix.
 
 In this project, you're going to build exactly this as an independent service.
 
-(Don't worry if you don't have experience with Pub/Sub specifically - just
-assume it works similarly to your favorite queuing service.)
+(Don't worry if you don't have experience with Pub/Sub specifically - you can
+mostly assume it works similarly to your favorite queuing service. The main
+exception is that Pub/Sub can be configured to push messages via HTTP POST
+requests.)
 
 ## Your Task
 
