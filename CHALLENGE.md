@@ -56,11 +56,8 @@ Write a small service which does the following:
 * Handles errors raised by Svix appropriately (and, in particular, handles any
   rate limit errors in a sensible way).
 
-We'd prefer this service to be written in either Go or Ruby, as these are the
-two languages we use most often. If you absolutely must write it in a different
-language then please don't assume that the reviewer will have a working setup
-on their machine. In general, whatever language you choose, make it as easy as
-possible for us to know how to build, run & test your solution.
+Please complete your submission in either Go or Ruby, as these are the two
+languages we use most often.
 
 While we don't expect full test coverage, we'd like to see _some_ tests. Use
 your judgement to decide what should be tested, and write down your thoughts on
