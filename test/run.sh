@@ -32,6 +32,7 @@ cd "$parent_directory"
 
 for event in events/event-*.json; do
   curl \
+  --request POST\
   --data "@$event" \
   --header "Content-Type: application/json" \
   --connect-timeout 2 \
